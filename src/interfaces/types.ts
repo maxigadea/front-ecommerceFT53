@@ -58,3 +58,10 @@ export interface IOrder {
     date: Date;
     products: IProduct[]
 }
+
+export interface IOrderII {
+    id: number; 
+    status: string;
+    date: Date;
+    products: IProduct[]
+}
